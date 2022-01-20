@@ -4,7 +4,7 @@ import json
 import pymongo
 
 
-myclient = pymongo.MongoClient("mongodb+srv://root:root@cluster0.omkzd.mongodb.net/tMovie?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("mongodb+srv://user:pass@cluster0.omkzd.mongodb.net/tMovie?retryWrites=true&w=majority")
 mydb = myclient['tMovie']
 myMovies = mydb['movies']
 myGenres = mydb['genres']
